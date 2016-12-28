@@ -1,0 +1,5 @@
+[cfg.services.core.nginx.leverage]
+start = "--permanent-peer --bind api:leverage-api.leverage"
+
+[cfg.services.leverage.leverage-api.leverage]
+start = "--permanent-peer"
